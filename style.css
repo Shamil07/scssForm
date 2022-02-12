@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  width: 900px;
+}
+
+.main .left {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: #141441;
+}
+
+.main .left h1 {
+  color: white;
+  font-size: 25px;
+  width: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .left h2 {
+  color: white;
+  font-size: 20px;
+  margin: 15px 31px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .left p {
+  color: lightgray;
+  font-size: 12px;
+}
+
+.main .left .d1, .main .left .d2, .main .left .d3, .main .left .d4 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .left .d1 .div2, .main .left .d2 .div2, .main .left .d3 .div2, .main .left .d4 .div2 {
+  width: 100px;
+  padding-left: 40px;
+  border-left: 1px solid white;
+}
+
+.main .left .end {
+  position: relative;
+  height: 90px;
+  background-color: #ff2727;
+}
+
+.main .left .end #p1 {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  color: white;
+}
+
+.main .left .end h1 {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.main .left .end #p2 {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  color: white;
+}
+
+.main form {
+  position: relative;
+  height: 400px;
+  width: 500px;
+  background-color: white;
+}
+
+.main form h2 {
+  position: relative;
+  color: red;
+  font-size: 20px;
+  margin: 15px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main form .topDiv {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.main form .topDiv .justContent {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50px;
+  width: 350px;
+}
+
+.main form .topDiv .justContent #d1, .main form .topDiv .justContent #d2 {
+  position: relative;
+  width: 160px;
+  height: 48px;
+  margin: 0px 20px;
+  border: 1px solid #646464;
+  background-color: white;
+}
+
+.main form .topDiv .justContent #d1 .visa, .main form .topDiv .justContent #d2 .visa {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  top: 14px;
+  left: 15px;
+}
+
+.main form .topDiv .justContent #d1 .master, .main form .topDiv .justContent #d2 .master {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 3px;
+  left: 65px;
+}
+
+.main form .topDiv .justContent #d1 .paypal, .main form .topDiv .justContent #d2 .paypal {
+  position: absolute;
+  width: 55px;
+  height: 25px;
+  top: 14px;
+  left: 35px;
+}
+
+.main form .inputs {
+  position: relative;
+  height: 235px;
+  width: 100%;
+}
+
+.main form .inputs input {
+  outline: none;
+}
+
+.main form .inputs .dinp1 {
+  position: relative;
+  width: 96%;
+  height: 65px;
+  margin: 20px 10px;
+}
+
+.main form .inputs .dinp1 .p1 {
+  position: relative;
+  font-weight: bold;
+}
+
+.main form .inputs .dinp1 #inp1 {
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  width: 95%;
+  margin: 5px 0px;
+}
+
+.main form .inputs .justBetween {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 96%;
+  height: 65px;
+  margin: 20px 10px;
+}
+
+.main form .inputs .justBetween .inps {
+  position: relative;
+  height: 40px;
+  top: 20px;
+  width: 230px;
+  font-size: 15px;
+}
+
+.main form .inputs .justBetween #p1 {
+  position: absolute;
+  font-weight: bold;
+  left: 0px;
+}
+
+.main form .inputs .justBetween #p2 {
+  position: absolute;
+  font-weight: bold;
+  right: 200px;
+}
+
+.main form .inputs .endDiv {
+  position: relative;
+}
+
+.main form .inputs .endDiv p {
+  position: absolute;
+  font-weight: bold;
+  left: 10px;
+}
+
+.main form .inputs .endDiv input {
+  position: relative;
+  width: 95%;
+  height: 40px;
+  margin: 20px 10px;
+}
+
+.main form button {
+  position: relative;
+  color: white;
+  width: 96%;
+  padding: 10px;
+  border: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+  margin: 5px 10px;
+  background-color: #4764c2;
+}
+
+.main form button:hover {
+  background-color: #2c438f;
+}
+/*# sourceMappingURL=style.css.map */
